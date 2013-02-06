@@ -1,7 +1,7 @@
-php_mysqli_connection
+PHP MySQLi connection
 
-PHP MySQLi connection is a Sublime Text 2 plugin for fast creation of PHP MySQLi connection script.
-After you install this plugin, you can create a PHP MySQLi connection script simply by pressing Alt+P or by typing in 'PHP MySQLi connection' after opening Ctrl+Shift+P menu.
+PHP MySQLi connection is a Sublime Text 2 snippet for fast creation of PHP MySQLi connection script.
+After you install this plugin, you can create a PHP MySQLi connection script simply by typing pmc and then pressing tab button or by typing in 'PHP MySQLi connection' after opening Ctrl+Shift+P menu.
 
 
 LICENCE

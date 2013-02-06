@@ -1,0 +1,18 @@
+<snippet>
+	<content><![CDATA[
+\$mysql_server = "${1:localhost}";
+\$mysql_user = "${2:root}";
+\$mysql_password = "${3}";
+\$mysql_db = "${4}";
+\$mysqli = new mysqli(\$mysql_server, \$mysql_user, \$mysql_password, \$mysql_db);
+if (\$mysqli->connect_errno) {
+	printf("Connection failed: %s \n", \$mysqli->connect_error);
+	exit();
+}
+\$mysqli->set_charset("${5:utf8}");
+		]]></content>
+		<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+		<tabTrigger>pmc</tabTrigger>
+		<!-- Optional: Set a scope to limit where the snippet will trigger -->
+		<scope>source.php</scope>
+	</snippet>

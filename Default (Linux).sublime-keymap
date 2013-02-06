@@ -1,5 +1,0 @@
-[
-	{  
-        "keys": ["alt+p"], "command": "php_mysqli_connection"  
-    }
-]
